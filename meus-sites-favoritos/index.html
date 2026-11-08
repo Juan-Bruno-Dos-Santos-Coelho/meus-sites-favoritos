@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título que aparece na aba do navegador -->
+    <title>Meus sites favoritos</title>
+
+    <!-- Estilização da página -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #263b5e;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .site {
+            background-color: white;
+            width: 220px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .site h2 {
+            color: #333;
+            font-size: 20px;
+        }
+
+        .site img {
+            width: 130px;
+            height: 130px;
+            object-fit: contain;
+        }
+
+        .site a {
+            display: inline-block;
+            margin-top: 15px;
+            color: #1769aa;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .site a:hover {
+            color: #e67e22;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Título principal da página -->
+    <h1>Meus sites favoritos: Seu Nome</h1>
+
+    <!-- Área que organiza os cinco sites -->
+    <div class="container">
+
+        <!-- Primeiro site: Google -->
+        <div class="site">
+            <h2>Google</h2>
+            <img src="https://www.google.com/s2/favicons?domain=google.com&sz=256"
+                 alt="Logo do Google">
+            <br>
+            <a href="https://www.google.com" target="_blank">
+                Acessar Google
+            </a>
+        </div>
+
+        <!-- Segundo site: YouTube -->
+        <div class="site">
+            <h2>YouTube</h2>
+            <img src="https://www.google.com/s2/favicons?domain=youtube.com&sz=256"
+                 alt="Logo do YouTube">
+            <br>
+            <a href="https://www.youtube.com" target="_blank">
+                Acessar YouTube
+            </a>
+        </div>
+
+        <!-- Terceiro site: Wikipedia -->
+        <div class="site">
+            <h2>Wikipedia</h2>
+            <img src="https://www.google.com/s2/favicons?domain=wikipedia.org&sz=256"
+                 alt="Logo da Wikipedia">
+            <br>
+            <a href="https://www.wikipedia.org" target="_blank">
+                Acessar Wikipedia
+            </a>
+        </div>
+
+        <!-- Quarto site: GitHub -->
+        <div class="site">
+            <h2>GitHub</h2>
+            <img src="https://www.google.com/s2/favicons?domain=github.com&sz=256"
+                 alt="Logo do GitHub">
+            <br>
+            <a href="https://github.com" target="_blank">
+                Acessar GitHub
+            </a>
+        </div>
+
+        <!-- Quinto site: Instagram -->
+        <div class="site">
+            <h2>Instagram</h2>
+            <img src="https://www.google.com/s2/favicons?domain=instagram.com&sz=256"
+                 alt="Logo do Instagram">
+            <br>
+            <a href="https://www.instagram.com" target="_blank">
+                Acessar Instagram
+            </a>
+        </div>
+
+    </div>
+
+</body>
+</html>
